@@ -1,0 +1,391 @@
+@import url("base.css");
+/*头部*/
+body,html{
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+}
+header{
+    width: 100%;
+    height: .68rem;
+    background: url("../../static/img/nav_bg.png") no-repeat center /cover;
+    font-size: .18rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+}
+header>span{
+    font-size: .18rem;
+    display: block;
+    height: 100%;
+    line-height: .68rem;
+    border-bottom: 2px solid rgba(0,0,0,0);
+
+}
+/*address*/
+.address{
+    width: 100%;
+    height: auto;
+    border-top: 10px solid #f2f2f2;
+    position: relative;
+
+}
+.address>.address-head{
+    width: 100%;
+    height: .6rem;
+    background: #e2ebf6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 .35rem;
+    box-sizing: border-box;
+}
+.address-head>.head-img{
+    width: 0.13rem;
+    height: .22rem;
+}
+.address-head>.head-img>img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.address-head.head-span{
+    width:auto;
+    height: auto;
+}
+.address-head>.head-span>p{
+    font-size:  .20rem;
+    color:#024097;
+}
+.address-head>.head-kong{
+    width:.1rem;
+    height: .1rem;
+}
+.address>#wrapper{
+    width: 100%;
+    height: 8rem;
+    overflow: hidden;
+    background: #fff;
+}
+.address>#wrapper>.address-content{
+    width:100%;
+    padding:0 .35rem;
+    box-sizing: border-box;
+
+}
+.address-content>li{
+    width: 100%;
+    height: 1.4rem;
+    padding: .2rem 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li>.information{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li>.information>p{
+    font-size: .12rem;
+    color: #333333;
+    display: block;
+}
+li>.add-infor{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+li>.add-infor>p{
+    font-size: .12rem;
+    color: #9c9c9c;
+    display: block;
+}
+li>.editor{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+li>.editor>.edi{
+    height: auto;
+}
+li>.editor>.edi>p {
+    font-size: .12rem;
+    color: #9c9c9c;
+    display: block;
+    float: left;
+}
+li>.editor>.edi>p:nth-of-type(2){
+    margin: 0 .1rem;
+}
+.address>.btn {
+    width: 100%;
+    height: .8rem;
+    padding: .1rem .35rem;
+    box-sizing: border-box;
+    background: #fff;
+    margin-top: .1rem;
+}
+.address>.btn>button{
+    width: 100%;
+    height: .4rem;
+    font-size: .16rem;
+    text-align: center;
+    line-height: .4rem;
+    border: none;
+    outline: none;
+    background: #003f97;
+    border-radius: 3px;
+    color:#fff;
+    transform: translateY(-.7rem);
+}
+
+
+/*创建新地址*/
+.create{
+    width: 100%;
+    height: auto;
+    border-top: 10px solid #f2f2f2;
+    position: relative;
+}
+.create>.create-head{
+    width: 100%;
+    height: .6rem;
+    background: #e2ebf6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 .35rem;
+    box-sizing: border-box;
+}
+.create-head>.head-img{
+    width: 0.13rem;
+    height: .22rem;
+}
+.create-head>.head-img>img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.create-head.head-span{
+    width:auto;
+    height: auto;
+}
+.create-head>.head-span>p{
+    font-size:  .20rem;
+    color:#024097;
+}
+.create-head>.head-kong{
+    width:.1rem;
+    height: .1rem;
+}
+.create>.create-new{
+    width: 100%;
+    height: 2rem;
+    background: #fff;
+}
+.create-new>.new-people{
+    width: 100%;
+    height: .5rem;
+    padding: .15rem 0;
+    box-sizing: border-box;
+}
+.new-people>p{
+    font-size: .16rem;
+    width: 90%;
+    margin-left: .3rem ;
+}
+.new-people>p>input{
+    width: 4rem;
+    border: none;
+    margin-left: .3rem;
+}
+
+
+.create-new>.new-phone{
+    width: 100%;
+    height: .3rem;
+    margin: .1rem 0;
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+    padding:.1rem 0;
+
+}
+.new-phone>p{
+    font-size: .16rem;
+    width: 90%;
+    margin-left: .3rem ;
+}
+.new-phone>p>input{
+    width: 4rem;
+    border: none;
+    margin-left: .3rem;
+}
+
+.create-new>.new-add{
+    width: 100%;
+    height: .3rem;
+    margin: .1rem 0;
+
+}
+.new-add>p{
+    font-size: .16rem;
+    width: 90%;
+    margin-left: .3rem ;
+}
+.new-add>p>input{
+    width: 4rem;
+    border: none;
+    margin-left: .3rem;
+}
+.create>.btn {
+    width: 100%;
+    height: .8rem;
+    padding: .1rem .35rem;
+    box-sizing: border-box;
+    background: #fff;
+    margin-top: .1rem;
+}
+.create>.btn>button{
+    width: 100%;
+    height: .4rem;
+    font-size: .16rem;
+    text-align: center;
+    line-height: .4rem;
+    border: none;
+    outline: none;
+    background: #003f97;
+    border-radius: 3px;
+    color:#fff;
+    transform: translateY(-.7rem);
+}
+
+
+.amend{
+    width: 100%;
+    height: auto;
+    border-top: 10px solid #f2f2f2;
+    position: relative;
+}
+.amend>.amend-head{
+    width: 100%;
+    height: .6rem;
+    background: #e2ebf6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 .35rem;
+    box-sizing: border-box;
+}
+.amend-head>.head-img{
+    width: 0.13rem;
+    height: .22rem;
+}
+.amend-head>.head-img>img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.amend-head.head-span{
+    width:auto;
+    height: auto;
+}
+.amend-head>.head-span>p{
+    font-size:  .20rem;
+    color:#024097;
+}
+.amend-head>.head-kong{
+    width:.1rem;
+    height: .1rem;
+}
+.amend>.amend-new{
+    width: 100%;
+    height: 2rem;
+    background: #fff;
+}
+.amend-new>.new-people{
+    width: 100%;
+    height: .5rem;
+    padding: .15rem 0;
+    box-sizing: border-box;
+}
+.new-people>p{
+    font-size: .16rem;
+    width: 90%;
+    margin-left: .3rem ;
+}
+.new-people>p>input{
+    width: 4rem;
+    border: none;
+    margin-left: .3rem;
+}
+
+
+.amend-new>.new-phone{
+    width: 100%;
+    height: .3rem;
+    margin: .1rem 0;
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+    padding:.1rem 0;
+
+}
+.new-phone>p{
+    font-size: .16rem;
+    width: 90%;
+    margin-left: .3rem ;
+}
+.new-phone>p>input{
+    width: 4rem;
+    border: none;
+    margin-left: .3rem;
+}
+
+.amend-new>.new-add{
+    width: 100%;
+    height: .3rem;
+    margin: .1rem 0;
+
+}
+.new-add>p{
+    font-size: .16rem;
+    width: 90%;
+    margin-left: .3rem ;
+}
+.new-add>p>input{
+    width: 4rem;
+    border: none;
+    margin-left: .3rem;
+}
+.amend>.btn {
+    width: 100%;
+    height: .8rem;
+    padding: .1rem .35rem;
+    box-sizing: border-box;
+    background: #fff;
+    margin-top: .1rem;
+}
+.amend>.btn>button{
+    width: 100%;
+    height: .4rem;
+    font-size: .16rem;
+    text-align: center;
+    line-height: .4rem;
+    border: none;
+    outline: none;
+    background: #003f97;
+    border-radius: 3px;
+    color:#fff;
+    transform: translateY(-.7rem);
+}

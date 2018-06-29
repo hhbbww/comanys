@@ -1,0 +1,385 @@
+@import "base.css";
+/*头部*/
+header{
+    width: 100%;
+    height: .68rem;
+    background: url("../../static/img/nav_bg.png") no-repeat center /cover;
+    font-size: .18rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+}
+header>span{
+    font-size: .18rem;
+    display: block;
+    height: 100%;
+    line-height: .68rem;
+    border-bottom: 2px solid rgba(0,0,0,0);
+
+}
+header>span:nth-of-type(1){
+    border-bottom: 2px solid #024097;
+
+}
+/*banner*/
+nav{
+    width: 100%;
+    height: 4rem;
+    overflow: hidden;
+    position: relative;
+}
+nav>.banner{
+    width: 200%;
+    height: 100%;
+    position: relative;
+}
+nav>.banner>li{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.banner>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.banner>li>a>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+nav>.dian{
+    width: .3rem;
+    height: .3rem;
+    position:absolute;
+    bottom:.05rem;
+    left: 50%;
+    margin-left: -.1rem;
+}
+nav>.dian>div{
+    width: .1rem;
+    height: .1rem;
+    border-radius: 50%;
+    background: #333333;
+    float: left;
+    margin-left: .05rem;
+}
+.login{
+    width: .88rem;
+    height: .3rem;
+    background: url("../../static/img/icon_bg.png") no-repeat center / cover;
+    position: absolute;
+    right: 0rem;
+    top: .1rem;
+    line-height: .325rem;
+}
+.login>img{
+    width: .16rem;
+    height: .16rem;
+    display: block;
+    float: left;
+    transform: translate(.1rem,.08rem);
+
+}
+.login>p{
+    font-size: .14rem;
+    color: #000;
+    -webkit-transform: scale(0.7);
+    -moz-transform:scale(0.7);
+    transform: scale(0.7);
+    margin-left: .15rem;
+}
+
+
+/*显卡租赁*/
+.card{
+    width: 100%;
+    height: auto;
+    border-bottom: .1rem solid #f2f2f2;
+}
+.card>.card-head{
+    width: 100%;
+    height: .58rem;
+    background: #fff;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: .14rem;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+}
+.card-head>span{
+    line-height: .58rem;
+}
+.card>.card-head>span>img{
+    display: inline-block;
+    width: .22rem;
+    height: .22rem;
+    margin-right: 0.1rem;
+
+}
+.card>.card-header{
+    width: 100%;
+    height: .62rem;
+    font-size: 0.2rem;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card>.card-list{
+    width: 100%;
+    height: 3rem;
+    padding:0 .24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card>.card-list>li{
+    width: 1.84rem;
+    height: 100%;
+}
+.card-list>li>.card-list-tu{
+    width: 100%;
+    height: 1.84rem;
+}
+.card-list>li>.card-list-tu>img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+li>p:nth-of-type(1){
+    font-size: .16rem;
+    color: #333333;
+    padding-top: .14rem;
+}
+.card-list>li>p:nth-of-type(2){
+    font-size: .14rem;
+    color: #ce1212;
+    padding-top: .08rem;
+}
+
+/*合同pact*/
+.pact{
+    width: 100%;
+    height:auto;
+    border-bottom: .1rem solid #f2f2f2;
+}
+.pact>.picture{
+    width: 100%;
+    height: 1.5rem;
+}
+.pact>.picture>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.pact>.pact-list{
+    width: 100%;
+    height: 2.14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pact>.pact-list>li{
+    width: 2.13rem;
+    height: 100%;
+}
+.pact>.pact-list>li>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*整机出租*/
+.completeCard{
+    width: 100%;
+    height: auto;
+    border-bottom: .1rem solid #f2f2f2;
+}
+.completeCard>.completeCard-header{
+    width: 100%;
+    height: .62rem;
+    font-size: 0.2rem;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.completeCard>.completeCard-picture{
+    width: 100%;
+    height: 1.84rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.completeCard-picture>li{
+    width: 50%;
+    height: 100%;
+    border-top: 1px solid #f2f2f2;
+
+}
+.completeCard-picture>li:nth-of-type(1){
+   border-right: 1px solid #f2f2f2;
+}
+.completeCard-picture>li>img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/*整机租赁2*/
+.completeCard2{
+    width: 100%;
+    height: auto;
+    border-bottom: .1rem solid #f2f2f2;
+}
+.completeCard2>.completeCard2-header{
+    width: 100%;
+    height: .62rem;
+    font-size: 0.2rem;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.completeCard2>.completeCard2-list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: .24rem;
+    box-sizing: border-box;
+    
+}
+.completeCard2-list>li{
+    width: 2.86rem;
+    height: auto;
+}
+.completeCard2-list>li>.picture2{
+    width: 100%;
+    height: 2.86rem;
+}
+li>.picture2>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 360px ) {
+
+    li>.completeCard2-font{
+        width: 100%;
+        height: .5rem;
+        margin-top: .16rem;
+        margin-bottom: .27rem;
+    }
+    li>.completeCard2-font>p{
+        font-size: .16rem;
+    }
+    li>.completeCard2-font>p:nth-of-type(1){
+        color: #333333;
+
+    }
+    li>.completeCard2-font>p:nth-of-type(2){
+        color: #ce1212;
+    }
+}
+@media screen and (min-width: 360px ){
+    li>.completeCard2-font{
+        width: 100%;
+        height: .3rem;
+        margin-top: .16rem;
+        margin-bottom: .27rem;
+
+    }
+    li>.completeCard2-font>p{
+        font-size: .16rem;
+        float: left;
+    }
+
+    li>.completeCard2-font>p:nth-of-type(1){
+        color: #333333;
+        transform: translateX(-.03rem);
+    }
+    li>.completeCard2-font>p:nth-of-type(2){
+        color: #ce1212;
+        transform: translateX(.18rem);
+    }
+
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    height: .86rem;
+    border-top: 1px solid #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../static/img/foot_bg.png") no-repeat center /cover;
+}
+.company{
+    width: 100%;
+    height: .32rem;
+}
+.company>.company-img{
+    width: .32rem;
+    height: .32rem;
+    float: left;
+    transform: translateX(1.2rem);
+}
+.company>.company-img>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.company>.company-font{
+    width: 7.5rem;
+    height: .31rem;
+    border-top:1px solid #ebebeb;
+    border-bottom:1px solid #ebebeb;
+    font-size: .12rem;
+    -webkit-transform: scale(0.6);
+    -moz-transform:scale(0.6);
+    transform: scale(0.6);
+    color: #000;
+
+}
+/*返回顶部*/
+.back{
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    position: fixed;
+    right: .2rem;
+    bottom: 1rem;
+}
+.back>img{
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+

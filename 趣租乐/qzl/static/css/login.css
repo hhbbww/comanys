@@ -1,0 +1,303 @@
+@import "base.css";
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 4rem;
+    height: 6rem;
+    position: relative;
+}
+.logo{
+    width: 3rem;
+    height: 1.5rem;
+    margin:0 auto;
+}
+.logo>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.login{
+    width: 3rem;
+    height: 2.8rem;
+    position: absolute;
+    left: 50%;
+    top: 1.5rem;
+    margin-left: -1.4rem;
+}
+.login>.login-font{
+    width: 100%;
+    height: .7rem;
+    margin-bottom: .2rem;
+}
+.login>.login-font>span{
+    display: block;
+    width: 50%;
+    height: 100%;
+    font-size: .22rem;
+    text-align: center;
+    padding-top: .25rem;
+    box-sizing: border-box;
+    float: left;
+}
+.login>.login-font>span:nth-of-type(1){
+    border-bottom:2px solid #024097;
+}
+.login>.login-font>span:nth-of-type(2){
+    border-bottom:2px solid #f2f2f2;
+}
+.login>.login-uer{
+    width: 100%;
+    height: .8rem;
+    margin-bottom: .25rem;
+}
+.login>.login-uer>input{
+    width: 100%;
+    height: .32rem;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    border-right: none;
+    border-left: none;
+    padding: .06rem;
+    transform: translateY(-.8rem);
+    font-size: .16rem;
+}
+.login>.login-uer>input:nth-of-type(1){
+    margin-bottom: .1rem;
+}
+.login>.login-uer>input:nth-of-type(2){
+    transform: translateY(-1.5rem);
+}
+.login>.login-pass{
+    width: 100%;
+    height: auto;
+    margin-top: .3rem;
+}
+.login-pass>.pass-login{
+    width: 100%;
+    height: .3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .05rem;
+
+}
+.login-pass>.pass-login>p{
+    font-size: .16rem;
+    transform: scale(.8);
+}
+.login-pass>.pass-login>p:nth-of-type(1){
+    color:#333333;
+}
+.login-pass>.pass-login>p:nth-of-type(2){
+    color: #024097;
+}
+.login-pass>button{
+    display: block;
+    width: 100%;
+    height: .42rem;
+    font-size: .16rem;
+    color: #fff;
+    background: #024097;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+.register{
+    width: 3rem;
+    height: 2.8rem;
+    position: absolute;
+    left: 50%;
+    top: 1.5rem;
+    margin-left: -1.4rem;
+}
+.register>.register-font{
+    width: 100%;
+    height: .7rem;
+    margin-bottom: .2rem;
+}
+.register>.register-font>span{
+    display: block;
+    width: 50%;
+    height: 100%;
+    font-size: .22rem;
+    text-align: center;
+    padding-top: .25rem;
+    box-sizing: border-box;
+    float: left;
+
+}
+.register>.register-font>span:nth-of-type(1){
+    border-bottom:2px solid #f2f2f2;
+}
+.register>.register-font>span:nth-of-type(2){
+    border-bottom:2px solid #024097;
+    color: #024097;
+}
+.register>.register-uer{
+    width: 100%;
+    height: 2.2rem;
+    margin-bottom: .25rem;
+    position: relative;
+}
+.register>.register-uer>input{
+    width: 100%;
+    height: .32rem;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    border-right: none;
+    border-left: none;
+    padding: .06rem;
+    transform: translateY(-.8rem);
+    font-size: .16rem;
+}
+.register>.register-uer>input:nth-of-type(1){
+    margin-bottom: .1rem;
+}
+.register>.register-uer>input:nth-of-type(2){
+    transform: translateY(-1.5rem);
+}
+.register>.register-uer>input:nth-of-type(3){
+    transform: translateY(-2.18rem);
+}
+.register>.register-uer>input:nth-of-type(4){
+    transform: translateY(-2.84rem);
+    width: 1.7rem;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+
+.register>.register-uer>div{
+    width: 1rem;
+    height: .35rem;
+    background: #024097;
+    position: absolute;
+    right: 0;
+    bottom: -.1rem;
+
+}
+.register>.register-uer>div>p{
+    /*display: block;*/
+    font-size: .14rem;
+    -webkit-transform: scale(0.8);
+    -moz-transform:scale(0.8);
+    transform: scale(0.8);
+    color: #fff;
+    text-align: center;
+    line-height: .36rem;
+}
+.register>button{
+    display: block;
+    width: 100%;
+    height: .42rem;
+    font-size: .16rem;
+    color: #fff;
+    background: #024097;
+    border: none;
+    outline: none;
+}
+
+
+
+
+.forget{
+    width: 3rem;
+    height: 2.8rem;
+    position: absolute;
+    left: 50%;
+    top: 1.5rem;
+    margin-left: -1.4rem;
+}
+.forget>.forget-font{
+    width: 100%;
+    height: .7rem;
+    margin-bottom: .2rem;
+}
+.forget>.forget-font>span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: .22rem;
+    text-align: center;
+    padding-top: .25rem;
+    box-sizing: border-box;
+    float: left;
+    border-bottom:2px solid #024097;
+    color: #024097;
+}
+
+.forget>.forget-uer{
+    width: 100%;
+    height: 2.2rem;
+    margin-bottom: .25rem;
+    position: relative;
+}
+.forget>.forget-uer>input{
+    width: 100%;
+    height: .32rem;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    border-right: none;
+    border-left: none;
+    padding: .06rem;
+    transform: translateY(-.8rem);
+    font-size: .16rem;
+}
+.forget>.forget-uer>input:nth-of-type(1){
+    margin-bottom: .1rem;
+}
+.forget>.forget-uer>input:nth-of-type(2){
+    transform: translateY(-.9rem);
+}
+.forget>.forget-uer>input:nth-of-type(3){
+    transform: translateY(-1.6rem);
+}
+.forget>.forget-uer>input:nth-of-type(4){
+    transform: translateY(-4.18rem);
+    width: 1.7rem;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+
+.forget>.forget-uer>div{
+    width: 1rem;
+    height: .35rem;
+    background: #024097;
+    position: absolute;
+    right: 0;
+    bottom: 1.24rem;
+
+}
+.forget>.forget-uer>div>p{
+    /*display: block;*/
+    font-size: .14rem;
+    -webkit-transform: scale(0.8);
+    -moz-transform:scale(0.8);
+    transform: scale(0.8);
+    color: #fff;
+    text-align: center;
+    line-height: .36rem;
+}
+.forget>button{
+    display: block;
+    width: 100%;
+    height: .42rem;
+    font-size: .16rem;
+    color: #fff;
+    background: #024097;
+    border: none;
+    outline: none;
+}
+
