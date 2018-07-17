@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../static/css/index.css">
+  <script src="../static/js/jquery-3.3.1.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="navigation">
+      <div class="logo">
+        <div class="img">
+          <img src="../static/image/logo.png" alt="">
+        </div>
+      </div>
+      <ul>
+        <li>
+          <a href="" onclick="return false;">
+            首页
+          </a>
+        </li>
+        <li>
+          <a href="" onclick="return false;">
+            库存
+          </a>
+        </li>
+        <li>
+          <a href="" onclick="return false;">
+            订单
+          </a>
+        </li>
+        <li>
+          <a href="" onclick="return false;">
+            商品
+          </a>
+        </li>
+        <li>
+          <a href="" onclick="return false;">
+            客户
+          </a>
+        </li>
+        <li>
+          <a href="" onclick="return false;">
+            设备
+          </a>
+        </li>
+        <li>
+          <a href="" onclick="return false;">
+            权限
+          </a>
+        </li>
+        <li>
+          <a href="" onclick="return false;">
+            管理
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="company">
+      <select>
+        <option value ="请选择公司类型">请选择公司类型</option>
+        <option value ="趣租乐公司">趣租乐公司</option>
+        <option value="A类代理商">A类代理商</option>
+        <option value="B类代理商">B类代理商</option>
+      </select>
+    </div>
+    <div class="info">
+      <div class="user">
+        <img src="../static/image/user.png" alt="">
+        <span>admin</span>
+      </div>
+      <ul>
+        <li>
+          <a href="" title="系统首页" >
+            <img src="../static/image/shouye.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="" title="系统消息">
+            <img src="../static/image/shouye.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="" title="更换皮肤">
+            <img src="../static/image/color.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="" title="退出登录">
+            <img src="../static/image/exit.png" alt="">
+          </a>
+        </li>
+      </ul>
+      <div class="userhover" style="display: none">
+        <div class="userhover-head">
+          <span>用户信息</span>
+          <a href="">账户设置</a>
+        </div>
+        <div class="userhover-foot">
+          <ul>
+            <li>
+              <div></div>
+              <span>所在部门:</span>
+              <p>销售部</p>
+            </li>
+            <li>
+              <div></div>
+              <span>本次登录:</span>
+              <p>销售部</p>
+            </li>
+            <li>
+              <div></div>
+              <span>登陆地区:</span>
+              <p>广东省深圳市(IP:183.14.135.1)</p>
+            </li>
+            <li>
+              <div></div>
+              <span>上次登录:</span>
+              <p>销售部</p>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="message" style="display: none">
+        <div class="message-head">
+          <span>
+            订单提示
+          </span>
+        </div>
+        <div class="message-foot">
+          <ul>
+            <li>
+              <a>待付款订单</a>
+              <span>(<p>10</p>)</span>
+            </li>
+            <li>
+              <a>待发货订单</a>
+              <span>(<p>10</p>)</span>
+            </li>
+            <li>
+              <a>已发货订单</a>
+              <span>(<p>10</p>)</span>
+            </li>
+          </ul>
+        </div>
+        <div class="message-head">
+          <span>
+            续租提示
+          </span>
+        </div>
+        <div class="message-foot">
+          <ul>
+            <li>
+              <a>需续费订单</a>
+              <span>(<p>10</p>)</span>
+            </li>
+            <li>
+              <a>已到期订单</a>
+              <span>(<p>10</p>)</span>
+            </li>
+          </ul>
+        </div>
+        <div class="message-head">
+          <span>
+            退租提示
+          </span>
+        </div>
+        <div class="message-foot">
+          <ul>
+            <li>
+              <a>待处理退租订单</a>
+              <span>(<p>10</p>)</span>
+            </li>
+            <li>
+              <a>待确认退租订单</a>
+              <span>(<p>10</p>)</span>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="content">
+    <div class="nav" id="0" style="display: block">
+      <div class="nav-head">
+        <span>系统首页</span>
+      </div>
+      <ul>
+        <li>
+          <a href="system.html" onclick="return false;" style="color: #48c9b0;"><div style="background: #48c9b0;"></div>系统首页</a>
+        </li>
+        <li>
+          <a href="account.html" onclick="return false;"><div></div>账户设置</a>
+        </li>
+        <li>
+          <a href="systemInfo.html" onclick="return false;"><div></div>系统消息</a>
+        </li>
+        <li>
+          <a href="logging.html" onclick="return false;"><div></div>登陆日志</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav" id="1" style="display: none">
+      <div class="nav-head">
+        <span>库存记录</span>
+      </div>
+      <ul>
+        <li>
+          <a href="statistical.html" onclick="return false;"><div></div>库存统计</a>
+        </li>
+        <li>
+          <a href="PutInStorage.html" onclick="return false;"><div></div>库存入库</a>
+        </li>
+        <li>
+          <a href="OutInStorage.html" onclick="return false;"><div></div>库存出库</a>
+        </li>
+        <li>
+          <a href="repair.html" onclick="return false;"><div></div>硬件报修</a>
+        </li>
+        <li>
+          <a href="scrap.html" onclick="return false;"><div></div>硬件报废</a>
+        </li>
+      </ul>
+      <div class="nav-head">
+        <span>硬件管理</span>
+      </div>
+      <ul>
+        <li>
+          <a href="brand.html" onclick="return false;"><div></div>硬件品牌管理</a>
+        </li>
+        <li>
+          <a href="classify.html" onclick="return false;"><div></div>硬件分类管理</a>
+        </li>
+        <li>
+          <a href="model.html" onclick="return false;"><div></div>硬件型号管理</a>
+        </li>
+
+      </ul>
+      <div class="nav-head">
+        <span>库存管理</span>
+      </div>
+      <ul>
+        <li>
+          <a href="police.html" onclick="return false;"><div></div>库存报警管理</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav" id="2" style="display: none">
+      <div class="nav-head">
+        <span>订单管理</span>
+      </div>
+      <ul>
+        <li>
+          <a href="aaa.html" onclick="return false;"><div></div>订单列表</a>
+        </li>
+        <li>
+          <a href="bbb.html" onclick="return false;"><div></div>订单设置</a>
+        </li>
+      </ul>
+      <div class="nav-head">
+        <span>退租管理</span>
+      </div>
+      <ul>
+        <li>
+          <a href="aaa.html" onclick="return false;"><div></div>退租单列表</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav" id="3" style="display: none">
+      <div class="nav-head">
+        <span>商品管理</span>
+      </div>
+      <ul>
+        <li>
+          <a href="aaa.html" onclick="return false;"><div></div>商品列表</a>
+        </li>
+        <li>
+          <a href="bbb.html" onclick="return false;"><div></div>添加商品</a>
+        </li>
+        <li>
+          <a href="ccc.html" onclick="return false;"><div></div>商品回收站</a>
+        </li>
+      </ul>
+      <div class="nav-head">
+        <span>商品配置</span>
+      </div>
+      <ul>
+        <li>
+          <a href="aaa.html" onclick="return false;"><div></div>商品分类</a>
+        </li>
+
+      </ul>
+    </div>
+    <div class="nav" id="4" style="display: none">
+      <div class="nav-head">
+        <span>商机客户管理</span>
+      </div>
+      <ul>
+        <li>
+          <a href="statistical.html" onclick="return false;"><div></div>商机客户列表</a>
+        </li>
+      </ul>
+      <div class="nav-head">
+        <span>已开发客户管理</span>
+      </div>
+      <ul>
+        <li>
+          <a href="aaa.html" onclick="return false;"><div></div>已开发客户列表</a>
+        </li>
+      </ul>
+      <div class="nav-head">
+        <span>客户管理设置</span>
+      </div>
+      <ul>
+        <li>
+          <a href="aaa.html" onclick="return false;"><div></div>客户管理设置</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav" id="5" style="display: none">
+      <div class="nav-head">
+        <span>租售设备管理</span>
+      </div>
+      <ul>
+        <li>
+          <a href="aaa.html" onclick="return false;"><div></div>租售设备统计</a>
+        </li>
+      </ul>
+      <div class="nav-head">
+        <span>自用设备管理</span>
+      </div>
+      <ul>
+        <li>
+          <a href="aaa.html" onclick="return false;"><div></div>自用设备统计</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav" id="6" style="display: none">
+      <div class="nav-head">
+        <span>权限管理</span>
+      </div>
+      <ul>
+        <li>
+          <a href="aaa.html" onclick="return false;"><div></div>代理商管理</a>
+        </li>
+        <li>
+          <a href="bbb.html" onclick="return false;"><div></div>部门管理</a>
+        </li>
+        <li>
+          <a href="ccc.html" onclick="return false;"><div></div>成员管理</a>
+        </li>
+        <li>
+          <a href="ddd.html" onclick="return false;"><div></div>操作日志</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav" id="7" style="display: none">
+      <div class="nav-head">
+        <span>消息管理</span>
+      </div>
+      <ul>
+        <li>
+          <a href="aaa.html" onclick="return false;"><div></div>系统消息</a>
+        </li>
+        <li>
+          <a href="bbb.html" onclick="return false;"><div></div>站内信消息</a>
+        </li>
+        <li>
+          <a href="ccc.html" onclick="return false;"><div></div>系统首页</a>
+        </li>
+
+      </ul>
+    </div>
+    <div id="myifrm">
+    </div>
+  </div>
+</body>
+
+<script src="../static/js/index.js"></script>
+<script src="../static/js/echarts.min.js"></script>
+
+</html>

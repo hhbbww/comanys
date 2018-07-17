@@ -1,0 +1,339 @@
+@import "base.css";
+.header{
+    width: 100%;
+    height: 50px;
+    background: #f3f3f3;
+    border-bottom: 1px solid #e4e4e4;
+}
+.header>.head{
+    width: 1100px;
+    height: 100%;
+    margin:0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head>.head-left{
+    width: auto;
+    height: 20px;
+    border-left: 5px solid #48c9b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head>.head-left>span{
+    font-size: 14px;
+    color: #999;
+    margin-left: 5px;
+}
+.head>.head-right{
+    width: 80px;
+    height: 30px;
+    background: #fff;
+    border:1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head>.head-right>a{
+    display: block;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.head-right>img{
+    width: 20px;
+    height: 100%;
+    display: block;
+}
+
+/*content*/
+.system{
+    width: 1060px;
+    height: auto;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.system>.system-list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.system-list>.list-cow{
+    width: 250px;
+    height: 100px;
+    border:1px solid #e4e4e4;
+    background: #fff;
+    padding-left: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.system-list>.list-cow:nth-of-type(4)>.cow-img{
+    width: 48px;
+    height: 38px;
+}
+.list-cow>.cow-img{
+    width: 48px;
+    height: 50px;
+}
+.list-cow>.cow-img>img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.list-cow>.cow-words{
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+}
+.cow-words>span{
+    font-size: 16px;
+    color: #999;
+}
+.cow-words>p{
+    color: #666;
+    font-size: 18px;
+    margin-top: 10px;
+}
+/*affair*/
+.system>.affair{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.affair>.affair-head{
+    width: 100%;
+    height: 45px;
+    background: #f3f3f3;
+    border:1px solid #e4e4e4;
+    padding-left: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.affair-head>span{
+    font-size: 14px;
+    color: #666;
+}
+.affair>ul{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 25px;
+    box-sizing: border-box;
+}
+.affair>ul>li{
+    width: 320px;
+    height: 40px;
+    border-bottom: 1px solid #e4e4e4;
+    padding-left: 20px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.affair>ul>li:hover>a{
+    color: #48c9b0;
+}
+.affair>ul>li>p:hover{
+    color: #48c9b0;
+}
+.affair>ul>li>p:hover>span{
+    color: #48c9b0;
+}
+.affair>ul>li>a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    color:#666;
+}
+.affair>ul>li>p{
+    font-size: 14px;
+    
+}
+.affair>ul>li>p>span{
+    font-size: 14px;
+    color: #F14844;
+}
+/*overview*/
+.system>.overview{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.overview>.overview-left{
+    width: 517px;
+    height: auto;
+    border: 1px solid #e4e4e4;
+}
+.overview-left>.over-left-head{
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e4e4e4;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.over-left-head>span{
+    font-size: 14px;
+    color: #666;
+}
+.overview-left>ul{
+    width: 100%;
+    height: 160px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.overview-left>ul>li{
+    width: auto;
+    height: auto;
+}
+.overview-left>ul>li>span{
+    font-size: 22px;
+    color: #F14844;
+}
+.overview-left>ul>li>p{
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+/*statistical*/
+.system>.statistical1{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border:1px solid #e4e4e4;
+}
+.statistical1>.statistical1-head{
+    width: 100%;
+    height: 45px;
+    background: #f3f3f3;
+    border-bottom:1px solid #e4e4e4;
+    padding-left: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.statistical1-head>span{
+    font-size: 14px;
+    color: #666;
+}
+.statistical1>.statistical1-foot{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.statistical1-foot>.stat-foot-left{
+    width: 145px;
+    height: 321px;
+    border-right:1px solid #e4e4e4;
+    padding: 35px 20px;
+    box-sizing: border-box;
+}
+.stat-foot-left>.zi{
+    width: auto;
+    height: auto;
+}
+.stat-foot-left>.zi>span{
+    font-size: 12px;
+    color: #989898;
+}
+.stat-foot-left>.zi>span:nth-of-type(2){
+    font-size: 22px;
+    color: #666;
+}
+.stat-foot-left>.zi>span:nth-of-type(3){
+    font-size: 12px;
+    color: #48c9b0;
+}
+.stat-foot-left>.zi>span:nth-of-type(3)>img{
+    width: 9px;
+    height: 6px;
+}
+.stat-foot-left>.zi>span:nth-of-type(4){
+    font-size: 12px;
+    color: #ccc;
+}
+.statistical1-foot>.stat-foot-right{
+    width: 915px;
+    height: 321px;
+}
+.stat-foot-right>.foot-right-head{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.foot-right-head>.fr-span{
+    width: auto;
+    height: auto;
+
+}
+.fr-span>span{
+    font-size: 12px;
+    color: #989898;
+}
+.foot-right-head>.fr-right{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-right-head>.fr-right>.fr-right-left{
+    width: 110px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.fr-right-left>span{
+    font-size: 12px;
+    color: #000;
+}
+.foot-right-head>.fr-right>.fr-right-right{
+    width: 200px;
+    height: 30px;
+    border:1px solid #e4e4e4;
+}
+
+
+
+
+#main{
+    width: 100%;
+    height: 271px;
+}
+#main1{
+    width: 100%;
+    height: 271px;
+}

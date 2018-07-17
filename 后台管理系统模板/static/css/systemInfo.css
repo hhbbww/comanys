@@ -1,0 +1,120 @@
+@import "base.css";
+/*头部*/
+.header{
+    width: 100%;
+    height: 50px;
+    background: #f3f3f3;
+    border-bottom: 1px solid #e4e4e4;
+}
+.header>.head{
+    width: 1100px;
+    height: 100%;
+    margin:0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head>.head-left{
+    width: auto;
+    height: 20px;
+    border-left: 5px solid #48c9b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head>.head-left>span{
+    font-size: 14px;
+    color: #999;
+    margin-left: 5px;
+}
+.head>.head-right{
+    width: 80px;
+    height: 30px;
+    background: #fff;
+    border:1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head>.head-right>a{
+    display: block;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.head-right>img{
+    width: 20px;
+    height: 100%;
+    display: block;
+}
+
+
+.main{
+    width: 1100px;
+    height: 450px;
+    border: 1px solid #e4e4e4;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.main>.main-head{
+    width: 100%;
+    height: 50px;
+    background: #f3f3f3;
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.main>.main-head>span{
+    font-size: 12px;
+    color: #666;
+}
+.main>.main-content{
+    width: 100%;
+    height: 400px;
+    padding: 32px 27px;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+.main-content>table{
+    width: 100%;
+    height: 100%;
+
+}
+.main-content>table tr{
+    width: 100%;
+    height: 40px;
+}
+.main-content>table tr td{
+    border: 1px solid #e4e4e4;
+    background: #ffffff;
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+}
+.main-content>table tr td:nth-of-type(1){
+    width: 160px;
+    background: #F9FAFC;
+    text-align: center;
+
+}
+.main-content>table tr td:nth-of-type(3){
+    width: 160px;
+    background: #F9FAFC;
+    text-align: center;
+
+}
+.main-content>table tr td:nth-of-type(2){
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.main-content>table tr td:nth-of-type(4){
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+
